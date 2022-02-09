@@ -1,0 +1,17 @@
+mkdir git_test
+cd git_test
+git config --global user.name "Anmolmohanty"
+git config --global user.email "mohanty.anmol.321@gmail.com"
+
+create a repository in git and copy its URL
+
+git clone https://github.com/Anmolmohanty/django.git
+
+cd django
+git remote -v
+new-item text.txt
+git add text.txt
+git status
+git commit -m "Sample 1"
+git pull
+git push
